@@ -1,0 +1,32 @@
+{
+  "name": "TrayMat",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "@tauri-apps/api": "^1.0.1",
+    "roboto-fontface": "*",
+    "swiper": "^8.2.4",
+    "vue": "^3.2.25",
+    "vuetify": "^3.0.0-beta.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.0",
+    "@types/webfontloader": "^1.0.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vite-plugin-vuetify": "^1.0.0-alpha.0",
+    "vue-cli-plugin-vuetify": "~2.5.1",
+    "vue-tsc": "^0.34.7"
+  }
+}
